@@ -1,0 +1,48 @@
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron-Regular.ttf);
+}
+
+:root {
+    --yellow-color: #FDD04A;
+    --blue-color: #57B8FF;
+    --desc-color: #555;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+

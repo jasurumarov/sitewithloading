@@ -1,0 +1,375 @@
+/* HERO SECTION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11 */
+
+.hero-section {
+    background: linear-gradient(to right, #000000e0 50%, #57B8FF 50%);
+}
+
+.hero-section-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    max-width: 660px;   
+    padding-bottom: 250px; 
+    padding-top: 209px;
+}
+
+.hero-title-slogan-part {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.hero-title-slogan {
+    color: var(--blue-color);
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.hero-title-heading {
+    margin-bottom: 45px;
+}
+.hero-title-heading img {
+    width: 656px;
+    height: 258px
+}
+
+.hero-title-desc {
+    color: #999;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 53px;
+}
+
+.hero-title-btn-group {
+    display: flex;
+    gap: 40px;
+}
+.explore-btn {
+    background: var(--blue-color);
+    padding: 21px 34px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.view-btn {
+    background: none;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* END HERO SECTION */
+
+/* SPONSORS SECTION */
+
+.sponsors-section {
+    background: var(--yellow-color);
+}
+
+.sponsors-section-content {
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.sponsors-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+.sponsors-heading img {
+    width: 374px;
+}
+.sponsors-desc {
+    max-width: 576px;
+    text-align: center;
+    color: var(--desc-color);
+    line-height: 26px; 
+}
+
+.sponsors-icons {
+    display: flex;
+    gap: 32px;
+}
+
+/* END SPONSORS SECTION */
+
+/* BENEFITS SECTION */
+
+.benefits-section {
+    background-image: url("../images/main/benefits-section-hero-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 136px 0 130px 0;   
+}
+
+.benefits-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefits-heading {
+    max-width: 730px;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize; 
+    margin-bottom: 40px;
+}
+.benefits-desc {
+    max-width: 700px;
+    color: rgba(223, 223, 223, 0.80);
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.benefits-result {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.benefits-cards-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-card {
+    background-image: url("../images/main/benefits-card-bg.png");
+    background-size: cover;
+    display: flex;
+    gap: 17.54px;
+    align-items: flex-start;
+    width: 645px;
+    padding: 35px 38px 32px 38px;
+}
+
+.benefits-card-title {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.benefits-card-heading {
+    color: #FFF;
+    font-size: 32px;
+    line-height: 42px; 
+    text-transform: capitalize;
+}
+.benefits-card-desc {
+    color: rgba(223, 223, 223, 0.80);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* END BENEFITS SECTION */
+
+/* NEWERA SECTION */
+
+.newEra-section {
+    background: #141820;
+}
+
+.newEra-section-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.newEra-title {
+    max-width: 660px;   
+    padding-bottom: 124px; 
+    padding-top: 124px;
+}
+.newEra-title-heading {
+    width: 700px;
+    color: #FFF;
+    font-size: 64px;
+    line-height: 74px; 
+    text-transform: capitalize;
+    margin-bottom: 38px;    
+}
+.newEra-title-desc {
+    width: 721px;
+    color: rgba(223, 223, 223, 0.80);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
+}
+
+/* NEWERA SECTION END */
+
+/* GAMETYPE SECTION */
+
+.container-forNewEra {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.gameType-section-content {
+    display: flex;
+}
+
+.gameType1 {
+    background-image: url("../images/main/gameType1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    padding-top: 270px;
+    padding-bottom: 265px;
+}
+.gameType2 {
+    background-image: url("../images/main/gameType2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    padding-top: 270px;
+    padding-bottom: 265px;
+}
+.gameType3 {
+    background-image: url("../images/main/gameType3.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    padding-top: 270px;
+    padding-bottom: 265px;
+}
+
+.gameType-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+
+/* GAMETYPE SECTION END */
+
+/* NEWS SECTION */
+
+.news-section {
+    background: #141820;
+    padding-top: 75px;
+    padding-bottom: 86px;
+}
+
+.news-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.news-headingGroup {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
+}
+.news-title-heading {
+    width: 500px;
+    color: #FFF;
+    font-size: 64px;
+    line-height: 74px; 
+    text-transform: capitalize;
+}
+.read-more-btn {
+    width: 175px;
+    height: 70px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+    text-transform: capitalize;
+}
+
+/* news cardss */
+
+.news-cards-part {
+    display: flex;
+    gap: 24px;
+}
+
+.news-left {
+    display: flex;
+    flex-direction: column;
+}
+.news-main-img {
+    width: 648px;
+    margin-bottom: 54px;
+}
+.news-time {
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+    margin-bottom: 28px;
+}
+.news-heading {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 127.778% */
+    text-transform: capitalize;
+    max-width: 657px;
+}
+
+.news-right {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.news-right-card-group {
+    display: flex;
+    gap: 24px;
+}
+
+.news-right-time {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #57B8FF;
+    font-family: Orbitron;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+}
+.news-right-heading {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 147.826% */
+    text-transform: capitalize;
+    width: 281px;
+}

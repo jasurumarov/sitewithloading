@@ -1,0 +1,141 @@
+footer {
+    background-image: url("../images/footer/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.footer-content {
+    padding: 126px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-desc1{
+    color: #555;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 3px;
+    margin-top: 33px;
+}
+.footer-desc2{
+    max-width: 846px;
+    color: #555;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 50px;
+}
+
+.email-adress-form{
+    display: flex;
+}
+.email {
+    padding: 21px 226px 21px 13px;
+    border: 1px solid #CCC; 
+    color: #555;
+font-family: Orbitron;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+}
+.submit-btn {
+    padding: 21px 8px;
+    background: #57B8FF;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+}
+
+.anim {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.anim div {
+    background-color: rgb(0, 218, 116);
+    animation: load 0.6s ease-in-out infinite;
+    transform: translate(-50%, -50%);
+}
+
+  div:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  div:nth-child(2) {
+    animation-delay: 0.05s;
+  }
+  div:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+  div:nth-child(4) {
+    animation-delay: 0.15s;
+  }
+  div:nth-child(5) {
+    animation-delay: 0.2s;
+  }
+  div:nth-child(6) {
+    animation-delay: 0.25s;
+  }
+  div:nth-child(7) {
+    animation-delay: 0.3s;
+  }
+  div:nth-child(8) {
+    animation-delay: 0.35s;
+  }
+  div:nth-child(9) {
+    animation-delay: 0.4s;
+  } 
+  div:nth-child(10) {
+    animation-delay: 0.45s;
+  }
+  div:nth-child(11) {
+    animation-delay: 0.5s;
+  }
+  div:nth-child(13) {
+    animation-delay: 0.55s;
+  }
+
+@keyframes load {
+    0% {
+        height: 50px;
+        width: 5px;
+        background-color: rgb(0, 218, 116);
+      }
+      50% {
+        height: 100px;
+        background-color: rgb(251, 255, 0);
+      }
+      100% {
+        height: 50px;
+        width: 5px;
+        background-color: rgb(0, 218, 116);
+      }
+}
+#loading-circle {
+	position: fixed;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	z-index: 100;
+	transition: 0.5s;
+}
+
